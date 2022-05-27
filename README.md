@@ -1,1 +1,0 @@
-KFC APP |  MERN Stack
