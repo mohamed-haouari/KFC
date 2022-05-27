@@ -14,7 +14,7 @@ const Card = () => {
             bulk of the card's content.
           </p>
             <div className="btn-wrapper d-flex">
-            <button type="button" class="btn btn-outline-danger btn-wrapper">200 $</button>
+            <button type="button" class="btn btn-outline-danger btn-wrapper">300 $</button>
             <button href="button" class="btn btn-danger btn-wrapper">Add to Bucket</button>
             </div>
         </div>
