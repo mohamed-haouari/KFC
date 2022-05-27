@@ -19,6 +19,16 @@
     text-decoration: none;
     color: #222;
     }
-    .footer-inner ul li a img{
+.footer-inner ul li a img{
         width: 200px;
         }
+.store-img-wrapper li{
+    display: flex;
+}
+.store-img-wrapper li a{
+    justify-content: flex-end;
+}
+.copyright{
+    padding: 16px 0;
+    text-align: center;
+}

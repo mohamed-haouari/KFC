@@ -37,11 +37,14 @@ const Footer = () => {
                 </ul>
             </div>
             <div className="col-md-4">
-            <ul>
+            <ul className="store-img-wrapper">
                     <li><a href=""><img src={playStore} alt="" /></a></li>
                     <li><a href=""><img src={appStore} alt="" /></a></li>
                 </ul>
             </div>
+        </div>
+        <div className="copyright">
+            <p>© 2022 KFC . All rights reserved.</p>
         </div>
     </div>
   )
