@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../../assets/img/vector.svg';
+import logo from '../../assets/img/kfc-logo.png';
 import './header.css';
 import Menu from '../Menu';
 import { Link } from "react-router-dom";
@@ -9,7 +9,7 @@ const Header = () => {
 <>
 <div className="headerWrapper">
         <div className="logo">
-            <Link to="/"><img src={logo} alt="" /></Link>
+            <Link to="/"><img width="150px" src={logo} alt="" /></Link>
         </div>
         <div className="auth-link">
     <ul>
