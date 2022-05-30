@@ -1,0 +1,28 @@
+.btn-cart-counter{
+    border-radius: 0;
+    padding: 8px 16px;
+}
+.bucket-modal-wrapper{
+    background-color: rgba(0, 0, 0, .6);
+    position: fixed;
+    inset: 0;
+    z-index: 999;
+}
+.bucket-modal-inner{
+    width: 400px;
+    height: 100%;
+    background-color: #fff;
+    position: fixed;
+    right: 0;
+}
+.bucket-modal-head{
+    background-color: #2d2926;
+    padding: 24px 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bkt-head-content{
+    color: #fff;
+    font-weight: bold;
+}

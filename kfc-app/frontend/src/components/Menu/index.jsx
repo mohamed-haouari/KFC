@@ -1,7 +1,9 @@
 import React from "react";
+import './menu.css'
 
 const Menu = () => {
   return (
+    <>
     <div className="menu-wrapper">
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <div className="container-fluid">
@@ -74,21 +76,29 @@ const Menu = () => {
                 </a>
               </li>
             </ul>
-            <form className="d-flex">
-              <input
-                className="form-control me-2"
-                type="search"
-                placeholder="Search"
-                aria-label="Search"
-              />
-              <button className="btn btn-outline-success" type="submit">
-                Search
-              </button>
-            </form>
           </div>
         </div>
       </nav>
     </div>
+    <div className="bucket-modal-wrapper">
+      <div className="bucket-modal-inner">
+          <div className="bucket-modal-head">
+            <div className="bucket-title bkt-head-content">
+            <h5>YOUR BUCKET</h5>
+            </div>
+            <div className="bucket-counter bkt-head-content">
+            <button className="btn btn-danger btn-cart-counter" type="submit">0</button>
+            </div>
+            <div className="bucket-total bkt-head-content">
+            <span>ITEMS 0</span>
+            </div>
+          </div>
+          <div className="bucket-modal-body">
+            <h4>Select Delivery Area</h4>
+          </div>
+      </div>
+    </div>
+    </>
   );
 };
 
