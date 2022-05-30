@@ -2,20 +2,21 @@ import React from 'react';
 import logo from '../../assets/img/vector.svg';
 import './header.css';
 import Menu from '../Menu';
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
 <>
 <div className="headerWrapper">
         <div className="logo">
-            <img src={logo} alt="" />
+            <Link to="/"><img src={logo} alt="" /></Link>
         </div>
         <div className="auth-link">
     <ul>
-        <li><a href=""><i class="bi bi-geo-alt-fill"></i>Store Locator</a></li>
-        <li><a href=""><i class="bi bi-person-fill"></i>Signin/Register</a></li>
-        <li><a href="">My Account</a></li>
-        <li><a href="">Logout</a></li>
+        <li><Link to="/"><i class="bi bi-geo-alt-fill"></i>Store Locator</Link></li>
+        <li><Link to="/login"><i class="bi bi-person-fill"></i>Signin/Register</Link></li>
+        <li><Link to="/">My Account</Link></li>
+        <li><Link to="/">Logout</Link></li>
     </ul>
         </div>
     </div>

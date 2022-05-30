@@ -1,6 +1,7 @@
 import React from 'react'
 import Footer from '../../components/Footer'
 import Header from '../../components/Header'
+import { Link } from "react-router-dom";
 
 const Register = () => {
   return (
@@ -10,7 +11,7 @@ const Register = () => {
             <h3>NEW CUSTOMER</h3>
         </div>
 <div classNameName="register-wrapper">
-    <p>Already registered<a href="">Login</a></p>
+    <p>Already registered<Link to="/login">Login</Link></p>
     <hr />
     <button className="btn btn-danger d-block w-100 mb-2">Login with Gmail</button>
     <button className="btn btn-primary d-block w-100">Login with Facebook</button>

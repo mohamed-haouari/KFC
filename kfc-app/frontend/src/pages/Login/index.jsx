@@ -1,6 +1,7 @@
 import React from "react";
 import Footer from "../../components/Footer";
 import Header from "../../components/Header";
+import { Link } from "react-router-dom";
 
 const Login = () => {
   return (
@@ -13,7 +14,7 @@ const Login = () => {
             <h3>LOGIN WITH SOCIAL LINKS</h3>
             </div>
             <p>
-              Already registered<a href="">Login</a>
+              Don't have Account?<Link to="/register">Register</Link>
             </p>
             <hr />
             <button className="btn btn-danger d-block w-100 mb-2">
@@ -52,7 +53,7 @@ const Login = () => {
             <h3>NEW CUSTOMER</h3>
             </div>
             <p>Register please to enjoy our services.</p>
-            <button type="button" class="btn btn-outline-danger">NEW CUSTOMER</button>
+            <Link to="/register" class="btn btn-outline-danger">NEW CUSTOMER</Link>
           </div>
         </div>
       </div>
