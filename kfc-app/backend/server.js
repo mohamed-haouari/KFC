@@ -7,7 +7,9 @@ const {connectDatabase} = require('./config/config');
 
 connectDatabase();
 
-app.use(bodyParser());
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({extended: false}));
+
 app.use('/api/v1', products)
 
 app.listen(process.env.PORT, () => {
